@@ -1,0 +1,26 @@
+{
+    "training": {
+        "nmp_folder": "./TrainingData/NMP",
+        "standards_folder": "./TrainingData/Standards",
+        "fsc_limit": 118000,
+        "fsc_limit_control": -1,
+        "fsc_limit_max": 0,
+        "gating_control_values": true,
+        "max_number_nmp_type": 20000,
+        "max_number_standards_type": 20000,
+        "max_value": 4194304,
+        "min_number_standards_type": 100,
+        "number_ensemble_binary": 2,
+        "number_ensemble_color": 2,
+        "number_ensemble_type": 2,
+        "out_of_scale": true,
+        "outlier_zscore": 5,
+        "seed": 7,
+        "ssc_limit": 23100,
+        "ssc_limit_control": -1,
+        "ssc_limit_max": 0,
+        "train_binary": true,
+        "train_color": true,
+        "train_type": true
+    }
+}
