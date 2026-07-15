@@ -82,6 +82,6 @@ MP Type Normalized Confusion Matrix
 
 ![Model trained with 13 plastic types and 6 not-microplastic types](images/image6.png)
 
-All plastic types are included in the dataset. Samples in blue were classified as microplastics with the previous model, however only 20250207__PU_255255000__PU_03.fcs and 20250319__PE-PP_217217217_PP_01.fcs were correctly classified in their respective plastic type (PU and PE-PP). The other three samples 20250206__PC_255255000_PC_02.fcs, 20250319__PU_000000000_PU_01.fcs, and 20250319__PVC_255255255_PVC_03.fcs are not also classified correctly according to their respective plastic type (PC, PU, and PVC).
+All plastic types are included in the dataset. Samples in blue were classified as microplastics with the previous model, however only 20250207__PU_255255000__PU_03.fcs and 20250319__PE-PP_217217217_PP_01.fcs were correctly classified in their respective plastic type (PU and PE-PP). The other three samples 20250206__PC_255255000_PC_02.fcs, 20250319__PU_000000000_PU_01.fcs, and 20250319__PVC_255255255_PVC_03.fcs are now also classified correctly according to their respective plastic type (PC, PU, and PVC).
 
 Training models with more MPs or NMPs spectra will increase its classification accuracy.
